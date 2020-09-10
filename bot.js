@@ -10,6 +10,8 @@ client.on('message', msg => {
 	var d = new Date();
 	if(d.getHours()==6){
 	    generalChannel.send("@everyone Good morning! Please remember to take your temp before leaving your room this morning (https://prodwebxe-hv.rose-hulman.edu/hsst-cgi/tool.pl). Also, don't forget your face mask!");
+	}else{
+	generalChannel.send("meow");
 	}
   
 });
