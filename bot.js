@@ -14,4 +14,4 @@ client.on('ready', () => {
 
 bot_secret_token = "NzUzMzcwNDczMjMyMDcyNzEx.X1lM7Q.Xq0AfiEs9EFmRPvB8-I_t0TY0b4"
 //keepAlive();
-client.login(bot_secret_token)
+client.login(process.env.bot_secret_token);
