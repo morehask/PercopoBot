@@ -1,2 +1,0 @@
-# PercopoBot
-daily temp bot
